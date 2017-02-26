@@ -1,8 +1,7 @@
- //establish a connection to the url
  var pageCounter =1;
 var animalContainer = document.getElementById("animal-info");
 var btn = document.getElementById("btn");
-	var ourRequest =new XMLHttpRequest();
+	var ourRequest =new XMLHttpRequest();   //establish a connection to the url
 	btn.addEventListener('click', function(){
 	ourRequest.open('GET', 'https://learnwebcode.github.io/json-example/animals-'+pageCounter+'.json')
 	ourRequest.onload = function(){
