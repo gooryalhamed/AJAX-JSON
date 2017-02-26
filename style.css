@@ -1,0 +1,21 @@
+#animal-info{
+	width: 250px;
+	background-color: #e6ffcc;
+	padding-left: 8px;
+}
+#btn{
+	background-color: #b3d9ff;
+	width:60px;
+	height: 30px;
+	border-radius: 4px;
+}
+body{
+	font-size: 18px;
+}
+.hide-me{
+	display:none;
+}
+p{
+	border-bottom: 1px solid black;
+	padding-left: 8px;
+}
